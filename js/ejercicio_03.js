@@ -1,5 +1,5 @@
 // FASE DE ENTRADA: DECLARACION DE VARIABLES
-let nombreObrero = "Carlos Mendoza";
+let nombreObrero = "Pepito";
 let cantidadPrendas = 150;
 
 const tarifaPrenda = 10;
