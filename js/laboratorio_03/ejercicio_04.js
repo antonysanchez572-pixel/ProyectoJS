@@ -1,5 +1,5 @@
 
-let edad = prompt ("edad");
+let edad = parseInt (prompt ("edad"));
 let pais = prompt ("pais");
 
 if ( edad >= 65 && pais == "peru" ){
