@@ -1,44 +1,20 @@
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php
 
-  $tieneHijo = "no";
-  $pagoMensual = 1025;
-  $rumeracionMV = 0.10;
+$costoLicencia = 120;
+$cantidadLicencias =65;
+$compraTotal = $cantidadLicencias * $costoLicencia;
 
-  if($tieneHijo == "si"){
-    $pagoRumeracion = $pagoMensual * $rumeracionMV;
-  }elseif($tieneHijo == "no"){
-    $pagoRumeracion = 0;
-  }else{
-    echo "Error";
-  }
+if ($compraTotal > 5000) {
+  $costoFlete = 0;
+} else {
+  $costoFlete = 150;
+}
 
-  $pagoNeto = $pagoMensual + $pagoRumeracion;
-
-  $onp = 0.13;
-
-  $pensionesONP = $pagoNeto * $onp;
-  $pagoFinal = $pagoNeto - $pensionesONP;
-
-  echo "-----------------------------------------------". "</br>";
-  echo "Su pago inicial es: ". $pagoMensual. "</br>";
-  echo "Tiene hijos: ". $tieneHijo. "</br>";
-  echo "Rumeracion por tener hijos: ". $pagoRumeracion. "</br>";
-  echo "ONP a descontar: ". $pensionesONP. "</br>";
-  echo "Pago Final: ". $pagoFinal. "</br>";
-  echo "-----------------------------------------------". "</br>";
+echo ":::::::::: LICENCIA DE SOFTWARE ::::::::::" . "<br>";
+echo "<br>";
+echo "Costo de licencias: S/" . $costoLicencia . "<br>";
+echo "Cantidad a comprar: " . $cantidadLicencias . "<br>";
+echo "Costo total a pagar: S/" . $compraTotal . "<br>";
+echo "Costo a pagar por flete: " . $costoFlete . "<br>";
 
 ?>
