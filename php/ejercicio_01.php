@@ -9,6 +9,7 @@ $precio = 350;
 $descuento = 0.08;
 $igv = 0.18;
 
+
 // FASE DE PROCESO : ES LAS LOGICA DEL PROGRAMA
 $precioIGV = $precio * $igv;
 $precioDescuento = $precio * $descuento;
