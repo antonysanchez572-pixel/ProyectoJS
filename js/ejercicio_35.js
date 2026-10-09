@@ -1,4 +1,4 @@
-// 1. Arreglo con los sueldos de los colaboradores (10 originales + 40 nuevos)
+// 1. Arreglo con los sueldos de los colaboradores 
 const sueldoColaboradores = [
     2500, 1300, 4800, 5300, 1200, 5800, 1380, 6899, 4578, 5487,
     3200, 1500, 4100, 6000, 2200, 3900, 1100, 7500, 4800, 5100,
